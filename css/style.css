@@ -1,0 +1,152 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 70px 1000px 500px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.lheader h2 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.lheader h2 a {
+    text-transform: uppercase;
+    color: black;
+}
+
+.rheader ul {
+    margin-top: 25px;
+    float: right;
+    margin-right: 10px;
+}
+
+.rheader ul li {
+    display: inline;
+    padding: 10px;
+}
+
+.rheader ul li a {
+    color: black;
+}
+
+.rheader ul li a:hover {
+    color: gray;
+}
+
+.form h2 {
+    margin-top: 10px;
+}
+
+input[type=text], select {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 500px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  #error {
+      color: red;
+  }
+
+  #gerror {
+      color: green;
+  }
+
+  .color-options {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .options {
+      display: grid;
+      grid-template-rows: 20% 80%;
+      height: 150px;
+  }
+
+.option-header {
+    background-color: green;
+    margin: 0;
+}
+
+.option-header p {
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+#theme-option1 {
+    background-color: white;
+    margin: 10px;
+    border-style: solid;
+}
+
+#theme-option1 .option-header{
+    background-color: #f3f3f3;
+}
+
+#theme-option2{
+    background-color: black;
+    margin: 10px;
+    border-style: solid;
+}
+
+#theme-option2 .option-header{
+    background-color: #f3f3f3;
+}
+
+#theme-option3 {
+    background-color: lightskyblue;
+    margin: 10px;
+    border-style: solid;
+}
+
+#theme-option3 .option-header{
+    background-color: purple;
+}
+
+#theme-option4 {
+    background-color: black;
+    margin: 10px;
+    border-style: solid;
+}
+
+#theme-option4 .option-header{
+    background-color: l#149414;
+}

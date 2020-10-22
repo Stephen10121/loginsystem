@@ -1,0 +1,19 @@
+.header {
+    background-color: purple;
+}
+.main {
+    background-color: lightblue;
+}
+
+.footer {
+    background-color: yellow;
+    color:black;
+}
+
+#footer-links {
+    color: black;
+}
+
+.options {
+    color: black;
+}

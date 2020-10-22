@@ -1,0 +1,29 @@
+.main {
+    color: green;
+}
+
+.header {
+    background-color: #149414;
+}
+
+.main {
+    background-color: black;
+}
+
+.footer {
+    background-color: green;
+    color:black;
+}
+
+#footer-links {
+    color: black;
+}
+
+#index-image {
+    background-color: green;
+    padding: 10px;
+}
+
+.options {
+    color: gray;
+}
